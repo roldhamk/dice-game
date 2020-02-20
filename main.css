@@ -1,0 +1,50 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  height: 100vh;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-wrap {
+  display: flex;
+}
+
+.game-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  border: 2px white solid;
+}
+
+.player {
+  padding: 10px;
+}
+
+.total-wrap {
+  padding: 10px;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 12px;
+}
