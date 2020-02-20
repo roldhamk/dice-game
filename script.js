@@ -12,11 +12,12 @@ button.addEventListener("click", () => {
   image.style.display = "block";
   image.src = `./img/dice${num}.png`;
   if (sum >= 20) {
-    number.innerText = `you win!`;
-    button.innerText = "Play again";
+    number.innerText = `You scored ${sum} - you win!`;
+    button.innerText = `play again`;
     sum = 0;
   } else if (num === 1) {
-    number.innerText = `you lost!`;
+    number.innerText = `You rolled a 1 - you lost!`;
+    button.innerText = `play again`;
     sum = 0;
     button.innerText = "Restart Game";
   }
